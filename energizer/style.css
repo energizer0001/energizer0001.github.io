@@ -717,6 +717,7 @@ ul {
     #main{
         grid-template-columns: 1fr;
         height: 100%;
+        width: calc(100% - 98px);
         margin-top: -200px;
         margin-bottom: 300px;
     }
