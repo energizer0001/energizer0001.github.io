@@ -296,7 +296,7 @@ body.dark .switch::before {
 /* about */
 
 #about {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -352,7 +352,7 @@ body.dark .switch::before {
     content: "";
     position: absolute;
     height: 40px;
-    width: 40px;
+    width: 20px;
     right: 0;
     bottom: -40px;
     background: var(--primary-color);
@@ -436,6 +436,8 @@ font-size: 40px;
     background-color: var(--primary-color);
     opacity: 1;
 }
+
+
 
 /* contact */
 
