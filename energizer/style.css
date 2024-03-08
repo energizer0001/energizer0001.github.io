@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-
-
 * {
     font-family: "poppins", sans-serif;
     margin: 0;
@@ -80,11 +78,9 @@ body.dark {
     height: 100%;
 }
 
-
 .close .text {
     opacity: 0;
 }
-
 
 .sidebar li {
     height: 50px;
@@ -271,6 +267,8 @@ body.dark .menu-bar .moon {
 
 body.dark .switch::before {
     left: 24px;
+    background: var(--primary-color);
+
 }
 
 .home {
@@ -296,11 +294,11 @@ body.dark .switch::before {
 /* about */
 
 #about {
-    /* min-height: 100vh; */
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left:15px;
+    margin-left: 15px;
     color: var(--text-color);
 }
 
@@ -416,30 +414,35 @@ body.dark .switch::before {
 }
 
 .swiper-navBtn::after,
-    .swiper-navBtn::before{
-font-size: 40px;
+.swiper-navBtn::before {
+    font-size: 40px;
 }
 
 .swiper-navBtn:hover {
     color: var(--primary-color);
 }
 
-.swiper-button-prev{
+.swiper-button-prev {
     left: 0;
 }
 
-.swiper-button-next{
+.swiper-button-next {
     right: 0;
 }
 
-.swiper-pagination .bullet{
+.swiper-pagination .bullet {
     background-color: var(--primary-color);
     opacity: 1;
 }
 
-
-
 /* contact */
+
+#contact {
+    min-height: 100vh;
+    display: flex;
+    margin-left: 15px;
+    color: var(--text-color);
+}
 
 .contact-left {
     flex-basis: 35%;
@@ -646,9 +649,10 @@ ul {
 }
 
 @media screen and (max-width : 768px) {
-.slide-content{
-    margin: 0 10px;
-}
+    .slide-content {
+        margin: 0 10px;
+    }
+
     .swiper-navBtn {
         display: none;
     }
