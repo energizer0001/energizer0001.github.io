@@ -718,10 +718,11 @@ ul {
         grid-template-columns: 1fr;
         height: 100%;
         margin-top: -200px;
-    margin-bottom: 300px;
+        margin-bottom: 300px;
     }
     .home{
         padding: 90px 3%;
+        margin-left: -20px;
     }
     .home-img img{
         width: 100%;
@@ -729,6 +730,33 @@ ul {
     }
     .home-img{
         text-align: center;
+    }
+    .home-text h4{
+        color: var(--primary-color);
+        font-size: 15px;
+        font-weight:600;
+        letter-spacing: -1px;
+        font-family: "lobstar",cursive;
+    }
+    
+    .home-text h1{
+        color: var(--text-color);
+        font-size: 25px;
+        font-weight:700;
+        line-height: 1.2;
+        margin: 23px 0;
+    }
+    
+    .home-text h1 span{
+        color: var(--primary-color);
+    }
+    
+    .home-text p{
+        color: var(--text-color);
+        font-size: 15px;
+        font-weight:400;
+        line-height: 25px;
+        margin-bottom: 40px;
     }
     
 }
