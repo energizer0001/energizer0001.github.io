@@ -733,12 +733,7 @@ ul {
 }
 
 /*responsive*/
-@media(max-width: 767px) {
-    .footer-col {
-        width: 50%;
-        margin-bottom: 30px;
-    }
-}
+
 
 @media(max-width: 574px) {
     .footer-col {
@@ -822,10 +817,6 @@ ul {
         line-height: 25px;
         margin-bottom: 40px;
     }
-
-}
-
-@media (max-width: 767px) {
     .all-products {
         padding: 0 1rem; /* Adjust padding for smaller screens */
     }
@@ -833,5 +824,9 @@ ul {
     .product {
         width: calc(100% - 2rem); /* Full width for single product per row */
         margin: 1rem 0;
+    }
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
     }
 }
