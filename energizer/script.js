@@ -19,7 +19,7 @@ modeSwitch.addEventListener("click", () => {
     }
 });
 
-var swiper = new Swiper(".slide-content", {
+var swiper = new Swiper("#about .slide-content", {
     slidesPerView: 3,
     spaceBetween: 30,
     slidesPerGroup: 3,
@@ -27,14 +27,50 @@ var swiper = new Swiper(".slide-content", {
     centerSlide: true,
     fade: true,
     grabCursor: true,
-    dynamicBullets: true,
+    dynamicBullets: "true",
     pagination: {
-        el: ".swiper-pagination",
+        el: "#about .swiper-pagination",
         clickable: true,
     },
     navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        nextEl: "#about .swiper-button-next",
+        prevEl: "#about .swiper-button-prev",
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+
+        },
+        520: {
+            slidesPerView: 2,
+            slidesPerGroup: 2,
+
+        },
+        950: {
+            slidesPerView: 3,
+            slidesPerGroup: 3,
+
+        },
+    }
+});
+
+var swiper = new Swiper("#products .slide-content", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    slidesPerGroup: 3,
+    loop: true,
+    centerSlide: true,
+    fade: true,
+    grabCursor: true,
+    dynamicBullets: "true",
+    pagination: {
+        el: "#products .swiper-pagination",
+        clickable: true,
+    },
+    navigation: {
+        nextEl: "#products .swiper-button-next",
+        prevEl: "#products .swiper-button-prev",
     },
     breakpoints: {
         0: {
