@@ -368,6 +368,7 @@ body.dark .switch::before {
 .card {
     border-radius: 25px;
     background: var(--sidebar-color);
+    height: 400px;
 }
 
 .image-content,
@@ -473,7 +474,9 @@ body.dark .switch::before {
     width: 10px;margin-top: 5px;
 
 }
-
+.card-content h2{
+    text-align: center;
+}
 
 /* products */
 #products{
