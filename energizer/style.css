@@ -713,8 +713,8 @@ ul {
 
 @media screen and (max-width : 768px) {
     #about{
-        margin-top: 20px;
-        margin-left: 110px;
+        margin-left: 88px;
+        margin-top: 88px;
     }
     .slide-content {
         margin: 0 10px;
@@ -790,9 +790,4 @@ ul {
         width: calc(100% - 88px);
         margin-left: 88px;
     }
-    #about{
-        
-        margin-top: 88px;
-    }
-
 }
